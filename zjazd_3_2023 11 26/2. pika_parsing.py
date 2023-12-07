@@ -44,3 +44,4 @@ for i in pikachu["abilities"]:
         abilities_list.append(i["ability"]["name"])
 print(abilities_list)
 
+
