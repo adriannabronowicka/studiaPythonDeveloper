@@ -1,9 +1,11 @@
 import json
 
+
 def load_pikachu():
     pika_file = open("pika.json")
     pikachu_dict = json.load(pika_file)
     return pikachu_dict
+
 
 pikachu = load_pikachu()
 
