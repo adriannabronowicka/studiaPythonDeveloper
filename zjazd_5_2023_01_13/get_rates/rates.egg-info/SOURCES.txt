@@ -1,0 +1,8 @@
+pyproject.toml
+rates/get_rate.py
+rates.egg-info/PKG-INFO
+rates.egg-info/SOURCES.txt
+rates.egg-info/dependency_links.txt
+rates.egg-info/entry_points.txt
+rates.egg-info/requires.txt
+rates.egg-info/top_level.txt

@@ -6,7 +6,7 @@ def get_2_digit_number_flex(string: str) -> int:
     return int(digit_1 + digit_2)
 
 
-with open('advent_1.txt', 'r') as file1:
+with open('advent_2.txt', 'r') as file1:
     content = file1.readlines()
 
 list_of_number = []
@@ -15,7 +15,7 @@ for i in content:
 print(sum(list_of_number))
 
 """kolejne rozwiązanie"""
-lines = open('advent_1.txt').readlines()
+lines = open('advent_2.txt').readlines()
 result = sum(get_2_digit_number_flex(line) for line in lines)
 print(result)
 

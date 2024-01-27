@@ -23,6 +23,6 @@ for line in content[1:]:
     if line[3] == 'k' and line[4][0].lower() == 't':
         count_maternity_leave += 1
 print(f"Liczba kobiet na macieżyńskim wynosi {count_maternity_leave}.")
-
+"""
 with open ('C:\\Users\\adria\Desktop\\newfile.txt', 'a') as plik1:
-    plik1.write('Kot i pies')
+    plik1.write('Kot i pies')"""

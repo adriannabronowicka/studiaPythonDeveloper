@@ -1,0 +1,2 @@
+[console_scripts]
+rate = rates.get_rate:main
